@@ -309,7 +309,7 @@ hr {
   transition-property: transform; }
   .tile .tile-inner {
     border-radius: 3px;
-    background: #eee4da;
+    background: #F9D7E5;;
     text-align: center;
     font-weight: bold;
     z-index: 10;
@@ -701,6 +701,10 @@ hr {
 
   .tile .tile-inner {
     font-size: 35px; }
+
+  .tile.tile-2 .tile-inner {
+    color: rgba(0, 0, 0, 0);
+    background: url('../tile-sets/mobilmira/2.png'); }
 
   .game-message p {
     font-size: 30px !important;
